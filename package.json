@@ -1,0 +1,19 @@
+{
+  "name": "gisproject",
+  "version": "1.0.0",
+  "description": "A project for us to build or portfolio and practice GIS skills!",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Izzy-Ido-Team/GISProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Izzy-Ido-Team/GISProject/issues"
+  },
+  "homepage": "https://github.com/Izzy-Ido-Team/GISProject#readme"
+}
