@@ -18,6 +18,16 @@ function generateOrRegenerateUI(uiWrapper, mapWrapper) {
             uiWrapper.removeChild(child);
         }
         // Add ui elements here
+        
+        var timeSlider = createUIElement(uiWrapper, "input");
+        timeSlider.type = "range";
+        timeSlider.min = "0";
+        timeSlider.max = "100";
+        timeSlider.step = "1";
+        timeSlider.style.right = "10px";
+        timeSlider.style.top = "10px";
+        timeSlider.style.width = "300px";
+        timeSlider.style.height = "20px";
     });
 }
 
